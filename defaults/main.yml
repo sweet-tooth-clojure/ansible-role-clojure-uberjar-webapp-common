@@ -1,3 +1,5 @@
 ---
 # User must define clojure_uberjar_webapp_domain
-clojure_uberjar_webapp_dashed: "{{ clojure_uberjar_webapp_domain | replace('.', '-') }}"
+clojure_uberjar_webapp_app_name: "{{ clojure_uberjar_webapp_domain | replace('.', '-') }}"
+datomic_db_name: {{ clojure_uberjar_webapp_app_name }}
+datomic_uri: "datomic:free://localhost:4334/{{ datomic_db_name }}"
