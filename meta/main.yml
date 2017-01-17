@@ -4,7 +4,11 @@ galaxy_info:
   company: http://www.braveclojure.com/
   license: MIT
   min_ansible_version: 1.2
-  galaxy_tags: 
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+  galaxy_tags:
     - clojure
     - web
 dependencies: []
