@@ -10,11 +10,11 @@ This role contains common definitions used by:
 Role Variables
 --------------
 
-* `clojure_uberjar_common_domain` must be set by you.
-* `clojure_uberjar_common_domain_dashed` defaults to a derivation of
-  `clojure_uberjar_common_domain`, where all periods are replaced with
+* `clojure_uberjar_webapp_domain` must be set by you.
+* `clojure_uberjar_webapp_domain_dashed` defaults to a derivation of
+  `clojure_uberjar_webapp_domain`, where all periods are replaced with
   dashes. Many other vars are derived from
-  `clojure_uberjar_common_domain_dashed`.
+  `clojure_uberjar_webapp_domain_dashed`.
 
 Dependencies
 ------------
