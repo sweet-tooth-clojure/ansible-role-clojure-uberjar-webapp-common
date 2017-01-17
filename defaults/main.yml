@@ -1,0 +1,3 @@
+---
+fmc_domain: app.com
+fmc_domain_dashed: "{{ fmc_domain | replace('.', '-') }}"
