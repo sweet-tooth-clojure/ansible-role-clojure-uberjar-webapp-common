@@ -2,4 +2,4 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - clojure-uberjar-webapp-common
+    - ansible-role-clojure-uberjar-webapp-common
