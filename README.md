@@ -16,7 +16,8 @@ role.
 Role Variables
 --------------
 
-
+| `clojure_uberjar_webapp_app_root` | directory containing app files like jar, config files                           |
+| `clojure_uberjar_webapp_config_dir` | directory containing env var files |
 
 Dependencies
 ------------
